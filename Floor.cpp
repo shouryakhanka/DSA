@@ -28,8 +28,8 @@ int floor(int arr[], int target, int n)
 
 int main()
 {
-    int arr[] = {2, 3, 5, 9, 14, 16, 18};
+    int arr[] = {1,3,5,6};
     int n = sizeof(arr) / sizeof(arr[0]);
-    cout << floor(arr, 1, n) << endl;
+    cout << floor(arr, 2, n) << endl;
     return 0;
 }
